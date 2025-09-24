@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Website</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .header {
+            background-color: darkcyan;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 50px;
+            font-weight: 700;
+        }
+
+        .center-text {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .img-1 {
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+            gap: 20px;
+        }
+
+        .img-2 {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+        }
+
+        .img-2 img {
+            max-width: 100%;
+            height: 180px; 
+            object-fit: cover; 
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+
+        .img-2 h3 {
+            color: darkcyan;
+            font-size: 1.4em;
+            margin-bottom: 10px;
+        }
+
+        .img-2 p {
+            font-size: 0.95em;
+            line-height: 1.5;
+            color: #555;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;    
+            margin-top: 40px;
+            font-size: 1;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        Welcome to My Website
+    </header>
+
+    <main>
+        <section class="center-text">
+            <img src="./computer.jpg" alt="computer">
+            <h1>Learn CSS Easily</h1>
+            <p>Master the art of styling with hands-on projects.</p>
+        </section>
+
+        <section class="img-1">
+            <div class="img-2">
+                <img src="./interactivelesson.jpeg" alt="interactive lesson">
+                <h3>Interactive Lessons</h3>
+                <p>Engage with exercises and real-world examples.</p>
+            </div>
+            <div class="img-2">
+                <img src="./stepbystep.jpg" alt="Hands typing on a laptop">
+                <h3>Step by Step</h3>
+                <p>Follow simple steps to understand CSS concepts.</p>
+            </div>
+            <div class="img-2">
+                <img src="./project.jpg" alt="building a project">
+                <h3>Build Projects</h3>
+                <p>Apply your knowledge to create real landing pages.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        © 2025 My Landing Page Project
+    </footer>
+
+</body>
+</html>
